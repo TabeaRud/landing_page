@@ -1,0 +1,33 @@
+/* ========================================
+   1. NAVIGATION
+======================================== */
+
+.navbar-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+/* ========================================
+   2. PRODUKTBILD UND ANIMATION
+======================================== */
+
+.produkt-bild {
+    animation: pulsieren 2s ease-in-out infinite;
+}
+
+@keyframes pulsieren {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
